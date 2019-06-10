@@ -1,0 +1,90 @@
+<Widgetx>:
+    Button:
+        id: sign_up
+        size: 200,45
+        opacity: 0
+        text: "Register Now"
+        on_press: root.regsend()
+        pos: 115,25
+        font_size: 20
+    TextInput:
+        id: username
+        size: 250,65
+        text: "Enter Username"
+        pos: 150,300
+        font_size: 20
+    Button:
+        id: login_button
+        size: 200,75
+        on_press: root.print_off()
+        text: "Log In"
+        pos: 115,85
+        font_size: 20
+    Button:
+        id: register
+        size: 110,75
+        on_press: root.registerx_()
+        text: "Create Account"
+        pos: 330,85
+        font_size: 15
+    TextInput:
+        id: passw
+        size: 250,45
+        text: 'Password'
+        password: True
+        pos: 150,200
+        font_size: 20
+    TextInput:
+        id: username_sign
+        size: 250,45
+        disabled: True
+        opacity: 0
+        text: 'Enter Username'
+        pos: 20,330
+        font_size: 20
+    TextInput:
+        id: passw_
+        size: 250,45
+        text: 'Enter Password'
+        disabled: True
+        opacity: 0
+        password: True
+        pos: 290,330
+        font_size: 20
+    TextInput:
+        id: email_phone
+        opacity: 0
+        size: 290,45
+        text: 'Enter Email or Phone Number'
+        pos: 190,250
+        font_size: 20 
+    TextInput:
+        id: name
+        opacity: 0
+        size: 250,45
+        text: 'Enter your First Name'
+        pos: 130,400
+        font_size: 20 
+    TextInput:
+        id: sex
+        opacity: 0
+        size: 250,45
+        text: 'Enter Sex (M,F,T,or O)'
+        pos: 20,160
+        font_size: 20 
+    TextInput:
+        id: age
+        opacity: 0
+        size: 100,65
+        text: 'Please Enter Your Age'
+        pos: 290,160
+        font_size: 20  
+
+    Button:
+        id: my_card
+        size: 200,45
+        opacity: 0
+        disabled: True
+        text: "View My Profile Card"
+        pos: 115,55
+        font_size: 20 
